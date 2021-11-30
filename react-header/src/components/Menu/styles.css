@@ -1,0 +1,17 @@
+.Menu {
+    display: flex;
+}
+
+.Menu a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.2rem;
+    margin: 1rem;
+    display: block;
+    transition: all 0.3s;
+}
+
+.Menu a:hover{    
+    color: #00d8ff;
+}
+

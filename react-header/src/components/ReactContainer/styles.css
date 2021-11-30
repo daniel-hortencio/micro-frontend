@@ -1,0 +1,49 @@
+.ReactContainer {
+    display: flex;
+    width: 100%;
+    border: solid 2px #00d8ff;
+    border-radius: 0.5rem; 
+    margin-bottom: 1rem;
+}
+
+.ReactContainer__logo-container {
+    background: #00d8ff;
+    padding: 0.5rem;   
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.ReactContainer__logo-container::before {
+    content: '';
+    position: absolute;
+    width: 0.5rem;
+    height: 100%;
+    background: #00d8ff;
+    bottom: 0;
+    right: 0;
+    transform: translateX(100%);
+}
+
+.ReactContainer__logo-container::after {
+    content: '';
+    position: absolute;
+    width: 1rem;
+    height: 100%;
+    border-radius: 0.5rem;
+    background: #fff;
+    bottom: 0;
+    right: 0;
+    transform: translateX(100%);
+}
+
+.ReactContainer__logo-container img {
+    width: 2rem;
+}
+
+.ReactContainer__content {   
+    padding: 1rem;
+    width: 100%;
+}
+
+
